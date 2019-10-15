@@ -17,7 +17,20 @@ object BasicActions extends App {
   // Get the context of spark
   val sparkCtx = new SparkContext(sparkConf)
 
+  // leer fichero txt por linea
+  // sparkCtx.textFile(path, minPartitions)
   
+  // leer ficheros completos.
+  //sparkCtx.wholeTextFiles(path, minPartitions)
+  
+  // leer ficheros binarios.
+  // sparkCtx.binaryFiles(path, minPartitions)
+  
+  // formato Sequence de haddopp
+  //sparkCtx.sequenceFile(path, keyClass, valueClass)
+  
+  // formatos legibles desde hadoop
+  //sparkCtx.hadoopFile(path)
   
   
   
