@@ -104,11 +104,11 @@ object BasicActions extends App {
     .take(4)
 
   println("Informe Grupo 2")
-    println("#"*40)
+    println("#"*50)
     for (d <- informeGrupo2) {
       println(d)
     }
-    println("#"*40)
+    println("#"*50)
 
    val informe3 = datosRDD.aggregateByKey(
         (0L, 0L, 0L, 0L, 0L) //Valor inicial - acumulado
@@ -142,11 +142,11 @@ object BasicActions extends App {
     
       
       println("Informe Grupo 3")
-    println("#"*40)
+    println("#"*50)
     for (d <- informe3) {
       println(d)
     }
-    println("#"*40)
+    println("#"*50)
   
   // indicate that we stop using the spark runtime. Resource is released.
   sparkCtx.stop()
