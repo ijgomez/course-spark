@@ -2,7 +2,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>spark-exercise-2</artifactId>
+	<artifactId>spark-core-exercise</artifactId>
+	<version>2.0</version>
 	<parent>
 		<groupId>org.course.spark</groupId>
 		<artifactId>spark-exercise-parent</artifactId>
