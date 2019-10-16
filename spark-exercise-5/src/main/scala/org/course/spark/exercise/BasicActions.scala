@@ -40,7 +40,7 @@ object BasicActions extends App {
 
       })
     .sortByKey()
-    .saveAsTextFile("./informes/" + System.currentTimeMillis())
+    .saveAsTextFile("./reports/" + System.currentTimeMillis())
   
   // Configurar las particiones
   fileRDD.map(generarTuplaOrigenYMetricas)
@@ -60,7 +60,7 @@ object BasicActions extends App {
            
       )
     .coalesce(1) //Se disminuye a una particion. CUIDADO!!
-    .saveAsTextFile("./informes/" + System.currentTimeMillis())
+    .saveAsTextFile("./reports/" + System.currentTimeMillis())
   
   
   
