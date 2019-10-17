@@ -9,7 +9,7 @@ object BasicActions extends App {
   val sparkConf = new SparkConf()
   
   // Define spark job name
-  sparkConf.setAppName("Basic Action Exercise v1.0")
+  sparkConf.setAppName("Spark Core Exercise v1.0 - Basic Actions")
   
   // Indicate where the spark job is to be executed (It can be indicated by the spark-summit command)
   // sparkConf.setMaster("local[*]")

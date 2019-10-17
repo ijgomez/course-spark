@@ -9,7 +9,7 @@ object BasicActions extends App {
   val sparkConf = new SparkConf()
   
   // Define spark job name
-  sparkConf.setAppName("Basic Action Exercise v6.0")
+  sparkConf.setAppName("Spark Core Exercise v6.0 - Basic Actions")
 
   // Get the context of spark
   val sparkCtx = new SparkContext(sparkConf)
