@@ -116,6 +116,12 @@
 			    <artifactId>spark-sql_${scala.compat.version}</artifactId>
 			    <version>${spark.version}</version>
 			</dependency>
+			<dependency>
+			    <groupId>org.apache.spark</groupId>
+			    <artifactId>spark-streaming_${scala.compat.version}</artifactId>
+			    <version>${spark.version}</version>
+			</dependency>
+			
 		</dependencies>
 	</dependencyManagement>
 </project>
