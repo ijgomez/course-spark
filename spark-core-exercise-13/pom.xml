@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>spark-core-exercise</artifactId>
+	<version>13.0</version>
+	<parent>
+		<groupId>org.course.spark</groupId>
+		<artifactId>spark-exercise-parent</artifactId>
+		<version>1.0</version>
+	</parent>
+	<dependencies>
+		<!-- Scala Lenguage -->
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.scala-lang.modules</groupId>
+			<artifactId>scala-xml_${scala.compat.version}</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.scala-lang.modules</groupId>
+			<artifactId>scala-parser-combinators_${scala.compat.version}</artifactId>
+		</dependency>
+		
+		<!-- Spark Framework -->
+		<dependency>
+			<groupId>org.apache.spark</groupId>
+			<artifactId>spark-core_${scala.compat.version}</artifactId>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>${project.name}-${scala.compat.version}-${project.version}</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.scala-tools</groupId>
+				<artifactId>maven-scala-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -2,7 +2,6 @@ package org.course.spark.exercise
 
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
-import org.apache.spark.storage.StorageLevel
 
 import org.course.spark.exercise.helper.StringHelper._
 

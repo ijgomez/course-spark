@@ -2,7 +2,6 @@ package org.course.spark.exercise
 
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
-import org.apache.spark.storage.StorageLevel
 
 object FileFormat extends App {
 
