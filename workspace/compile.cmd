@@ -1,8 +1,8 @@
 @ECHO OFF
 SETLOCAL
 
-if exist ..\spark-exercise-%~1 (
-	cd ..\spark-exercise-%~1
+if exist ..\spark-core-exercise-%~1 (
+	cd ..\spark-core-exercise-%~1
 	
 	call mvn clean install
 

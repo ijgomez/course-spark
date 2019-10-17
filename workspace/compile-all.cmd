@@ -1,25 +1,28 @@
 	@ECHO OFF
 SETLOCAL
 
-call :compile ..\spark-exercise-base
+call :compile ..\spark-exercise-parent
 if not "%ERRORLEVEL%" == "0" ( goto fin ) 
 
-call :compile ..\spark-exercise-1
+call :compile ..\spark-core-exercise-1
 if not "%ERRORLEVEL%" == "0" ( goto fin ) 
 
-call :compile ..\spark-exercise-2
+call :compile ..\spark-core-exercise-2
 if not "%ERRORLEVEL%" == "0" ( goto fin ) 
 
-call :compile ..\spark-exercise-3
+call :compile ..\spark-core-exercise-3
 if not "%ERRORLEVEL%" == "0" ( goto fin ) 
 
-call :compile ..\spark-exercise-4
+call :compile ..\spark-core-exercise-4
 if not "%ERRORLEVEL%" == "0" ( goto fin ) 
 
-call :compile ..\spark-exercise-5
+call :compile ..\spark-core-exercise-5
 if not "%ERRORLEVEL%" == "0" ( goto fin ) 
 
-call :compile ..\spark-exercise-6
+call :compile ..\spark-core-exercise-6
+if not "%ERRORLEVEL%" == "0" ( goto fin ) 
+
+call :compile ..\spark-core-exercise-7
 if not "%ERRORLEVEL%" == "0" ( goto fin ) 
 
 goto fin
