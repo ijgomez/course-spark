@@ -25,6 +25,24 @@ if not "%ERRORLEVEL%" == "0" ( goto fin )
 call :compile ..\spark-core-exercise-7
 if not "%ERRORLEVEL%" == "0" ( goto fin ) 
 
+call :compile ..\spark-core-exercise-8
+if not "%ERRORLEVEL%" == "0" ( goto fin ) 
+
+call :compile ..\spark-core-exercise-9
+if not "%ERRORLEVEL%" == "0" ( goto fin ) 
+
+call :compile ..\spark-core-exercise-10
+if not "%ERRORLEVEL%" == "0" ( goto fin ) 
+
+call :compile ..\spark-core-exercise-11
+if not "%ERRORLEVEL%" == "0" ( goto fin ) 
+
+call :compile ..\spark-core-exercise-12
+if not "%ERRORLEVEL%" == "0" ( goto fin ) 
+
+call :compile ..\spark-core-exercise-13
+if not "%ERRORLEVEL%" == "0" ( goto fin ) 
+
 goto fin
 
 :: a function to write to a log file and write to stdout

@@ -1,13 +1,18 @@
 
-# Curso de Spark para Desarrolladores.
+# Course: Apache Spark for Developers
 
 
-## Software necesario
-- Java JDK 1.8
-- Apache Hadoop 2.7.7
-- Apache Spark 2.4.4
+## Software needed for the course
+- Java JDK 1.8: [Link](https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html)
+- Apache Hadoop 2.7.7: [Link](https://hadoop.apache.org/)
+- Apache Spark 2.4.4: [Link](https://spark.apache.org/)
+- Apache Maven 3.6.0: [Link] (https://maven.apache.org/)
+- Apache Kafka 2.3.0: [Link] (https://kafka.apache.org/)
+- PostgreSQL: [Link] (https://www.postgresql.org/)
 
-## Instalacion del entorno (Windows)
+## Environment installation
+
+### Windows
 
 1. Java JDK 1.8
 	* Descargar e Instalar. NOTA: Instalar en una ruta sin espacios.
@@ -26,27 +31,25 @@
 	* Descargar y Descomprimir.
 	* Definir variable de entorno `%MAVEN_HOME%`
 
-5. Configurar las variables de entorno en el PATH del sistema:
-	* `PATH=%JAVA_HOME%\bin;%HADOOP_HOME%\bin;%SPARK_HOME%\bin;%PATH%`
+5. Configurar las variables de entorno en el PATH del sistema: `PATH=%JAVA_HOME%\bin;%HADOOP_HOME%\bin;%SPARK_HOME%\bin;%PATH%`
 
-	
-## Instalacion del entorno (Linux)
+### Linux/Unix
+
 <PENDIENTE>
 
 ## Workspace
-En el directorio workspace se encuentran los scripts para ejecutar los diferentes ejercicios del curso.
+Directory where the scripts are found to execute the different exercises of the course.
 
-## Ejercicios
-Descripcion de los ejecicios de que se compone el curso:
+## Exercises / Examples
+Description of the executions of which the course is composed:
+
+### Spark Core:
 - Ejecicio 1: Usando el contexto de spark
 - Ejecicio 2: Leyendo un fichero plano de texto
 - Ejecicio 2: Leyendo un fichero plano de texto comprimido
-	
-## URLs:
-https://dev.to/awwsmm/installing-and-running-hadoop-and-spark-on-windows-33kc	
 
-https://medium.com/big-data-engineering/how-to-install-apache-spark-2-x-in-your-pc-e2047246ffc3
+### Spark SQL:
 
-https://github.com/cdarlint/winutils
+### Spark Streaming:
 
-https://dzone.com/articles/working-on-apache-spark-on-windows
+### Cluster:
