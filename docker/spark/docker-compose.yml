@@ -3,7 +3,7 @@ services:
   spark-master:
     image: spark-master:latest
     ports:
-      - "9090:8080"
+      - "8080:8080"
       - "7077:7077"
     volumes:
        - ./apps:/opt/spark-apps
