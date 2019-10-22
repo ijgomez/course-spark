@@ -46,9 +46,10 @@ Description of the executions of which the course is composed:
 
 ### Spark Core:
 List of exercises and examples of Apache Spark Core:
-	- Exercise 1 (spark-core-exercise-1): Using context.
-	- Exercise 2 (spark-core-exercise-2): Reading a plain text file.
-	- Exercise 3 (spark-core-exercise-3): Reading a plain compressed text file.
+
+- Exercise 1 (spark-core-exercise-1): Using context.
+- Exercise 2 (spark-core-exercise-2): Reading a plain text file.
+- Exercise 3 (spark-core-exercise-3): Reading a plain compressed text file.
 
 ### Spark SQL:
 List of exercises and examples of Apache Spark SQL:
