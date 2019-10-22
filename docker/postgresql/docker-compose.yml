@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  db:
+    image: postgresql-base:latest
+    ports:
+      - "5432:5432"
+    volumes:
+       - ./var/pgdata:/var/lib/postgresql/data
+
+  
