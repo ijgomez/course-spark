@@ -52,12 +52,15 @@ List of exercises and examples of Apache Spark Core:
 
 ### Spark SQL:
 List of exercises and examples of Apache Spark SQL:
-	- Exercise 1 (spark-sql-exercise-1):
+
+- Exercise 1 (spark-sql-exercise-1):
 
 ### Spark Streaming:
 List of exercises and examples of Apache Spark Streaming:
-	- Exercise 1 (spark-streaming-exercise-1):
+
+- Exercise 1 (spark-streaming-exercise-1):
 
 ### Cluster:
 List of exercises and examples of the use of spark in a cluster:
-	- Exercise 1 (spark-cluster-exercise-1):
+
+- Exercise 1 (spark-cluster-exercise-1):
