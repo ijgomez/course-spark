@@ -9,6 +9,7 @@
 - Apache Maven 3.6.0: [Link] (https://maven.apache.org/)
 - Apache Kafka 2.3.0: [Link] (https://kafka.apache.org/)
 - PostgreSQL: [Link] (https://www.postgresql.org/)
+- Docker: [Link] (https://www.docker.com/)
 
 ## Environment installation
 
@@ -44,9 +45,16 @@ Directory where the scripts are found to execute the different exercises of the 
 Description of the executions of which the course is composed:
 
 ### Spark Core:
-- Ejecicio 1: Usando el contexto de spark
-- Ejecicio 2: Leyendo un fichero plano de texto
-- Ejecicio 2: Leyendo un fichero plano de texto comprimido
+- Spark Core:
+	- Exercise 1 (spark-core-exercise-1): Usando el contexto de spark
+	- Exercise 2 (spark-core-exercise-2): Leyendo un fichero plano de texto
+	- Exercise 3 (spark-core-exercise-3): Leyendo un fichero plano de texto comprimido
+	
+- Spark SQL:
+
+- Spark Streaming:
+
+- Cluster:
 
 ### Spark SQL:
 
