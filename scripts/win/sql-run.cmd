@@ -3,9 +3,9 @@ SETLOCAL
 
 echo 
 
-if exist ..\spark-core-exercise-%~1 (
+if exist ..\spark-sql-exercise-%~1 (
 
-	call ..\spark-core-exercise-%~1\src\main\cmd\run.cmd
+	call ..\spark-sql-exercise-%~1\src\main\cmd\run.cmd
 
 )
 

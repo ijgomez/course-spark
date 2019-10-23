@@ -1,2 +1,2 @@
 
-spark-sql.cmd --master local[*] --class org.course.spark.exercise.BasicOperations ..\spark-sql-exercise-1\target\spark-sql-exercise-2.11-1.0.jar
+spark-submit.cmd --master local[*] --class org.course.spark.exercise.BasicOperations ..\spark-sql-exercise-1\target\spark-sql-exercise-2.11-1.0.jar
