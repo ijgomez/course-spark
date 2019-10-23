@@ -14,7 +14,7 @@ fi
 
 export COURSE_SCRIPTS=$DIRNAME/scripts/linux
 export M2_HOME=$MAVEN_HOME
-export PATH=$JAVA_HOME/bin:$MAVEN_HOME/bin:$HADOOP_HOME/bin:$SPARK_HOME/bin:$COURSE_SCRIPTS:$PATH
+export PATH="$JAVA_HOME/bin:$MAVEN_HOME/bin:$HADOOP_HOME/bin:$SPARK_HOME/bin:$COURSE_SCRIPTS:$PATH"
 
 java -version
 
