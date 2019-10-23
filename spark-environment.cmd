@@ -1,6 +1,5 @@
 
 set JAVA_HOME=D:\Projects\personal\software\jdk1.8.0_201
-rem set JAVA_HOME=D:\Projects\personal\software\jdk-12.0.2
 
 set MAVEN_HOME=D:\Program Files\Apache Software Foundation\apache-maven-3.6.0
 
