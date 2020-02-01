@@ -2,8 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>spark-core-exercise</artifactId>
-	<version>9.0</version>
+	<artifactId>spark-core-exercise-09</artifactId>
 	<parent>
 		<groupId>org.course.spark</groupId>
 		<artifactId>spark-exercise-parent</artifactId>
@@ -31,7 +30,8 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>${project.name}-${scala.compat.version}-${project.version}</finalName>
+		<!-- <finalName>${project.name}-${scala.compat.version}-${project.version}</finalName> -->
+		<finalName>${project.name}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.scala-tools</groupId>
