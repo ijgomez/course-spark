@@ -2,4 +2,4 @@
 
 set -e
 
-docker build -t hdfs-base:latest ./hdfs-base
+docker build -t hadoop-base:latest ./hdfs-base
